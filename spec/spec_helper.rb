@@ -16,10 +16,10 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require './app/line.rb'
-require './app/input_filter.rb'
-require './app/input_listener.rb'
-require './app/bitmap_editor.rb'
+require './app/grid'
+require './app/position'
+require './app/robot'
+require './app/input_listener'
 
 
 RSpec.configure do |config|
